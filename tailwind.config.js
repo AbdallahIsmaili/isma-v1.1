@@ -11,7 +11,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      primary: 'Rubik',
+      primary: 'Oswald',
     },
     extend: {
       colors: {
