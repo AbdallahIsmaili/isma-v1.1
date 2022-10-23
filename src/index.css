@@ -10,7 +10,7 @@
     @apply text-[22px] lg:text-[32px] font-bold;
   }
   .btn {
-    @apply bg-blue h-[60px] px-4 rounded-full hover:bg-blue-hover transition flex items-center text-lg font-medium outline-none;
+    @apply bg-black text-white h-[60px] px-12 rounded-md hover:bg-transparent hover:text-black border-black border-4 transition flex items-center text-lg font-medium outline-none;
   }
   .section {
     @apply py-12 lg:py-24;
