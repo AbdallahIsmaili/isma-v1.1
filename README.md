@@ -5,7 +5,7 @@
 My personal portfolio, simple and easy, made with love... using HTML, CSS, and JavaScript.
 <br />
 
-<img src=".github/pics/Screenshot 2022-12-25 120412" />
+<img src="https://github.com/AbdallahIsmaili/isma-v1.1/blob/master/.github/pics/Screenshot%202022-12-25%20120412.png" />
 
 intrested by:
 
