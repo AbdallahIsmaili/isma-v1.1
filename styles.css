@@ -68,7 +68,7 @@
   }
   
   .u-yellow {
-    color: #FFD600;
+    color: #2200ff;
   }
   
   /* BASE STYLES */
@@ -95,7 +95,7 @@
   .color {
     height: 1000px;
     width: 1000px;
-    background-image: radial-gradient(closest-side, rgba(255, 230, 0, 0.21), #000);
+    background-image: radial-gradient(closest-side, rgba(25, 0, 255, 0.21), #000);
     position: absolute;
     top: -570px;
     left: 15%;
@@ -140,6 +140,98 @@
   .btn--contact {
     animation: fade-down 0.5s 0.4s backwards;
   }
+
+/* MAIN */
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 90px;
+    padding: 0 25px;
+  }
+  
+  /* INTRO */
+  .intro {
+    padding-top: 125px;
+    animation: fade-up 0.5s;
+  }
+  
+  .first-heading {
+    font-size: 48px;
+    font-weight: 600;
+    opacity: 0.94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emoji {
+    font-size: 35px;
+    margin-top: -8px;
+    margin-left: 3px;
+  }
+  
+  .text {
+    font-size: 40px;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-top: 11px;
+    line-height: 1.1;
+  }
+  
+  .text--second {
+    display: block;
+  }
+  
+  /* WORK */
+  .work {
+    margin-top: 60px;
+    animation: fade-up 0.6s 0.2s backwards;
+  }
+  
+  /* TOP */
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  
+  .second-heading {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  /* FILTERS */
+  .filters {
+    display: flex;
+    column-gap: 40px;
+  }
+  
+  .filter-item {
+  
+  }
+  
+  .filter-btn {
+    opacity: 0.6;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .filter-btn:hover {
+    opacity: 1;
+  }
+  
+  .filter-btn--active {
+    opacity: 1;
+  }
+
+  /* GRID */
 
 
 
