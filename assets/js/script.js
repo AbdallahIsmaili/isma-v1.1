@@ -50,8 +50,8 @@ filtersEl.addEventListener('click', e => {
   } else if (filterText === 'Front end') {
     projectEl1.style.opacity = '0';
     projectEl1.style.transform = 'scale(0)';
-    projectEl2.style.opacity = '0';
-    projectEl2.style.transform = 'scale(0)';
+    projectEl2.style.opacity = '1';
+    projectEl2.style.transform = 'translate(325px, 302px)';
     projectEl5.style.opacity = '0';
     projectEl5.style.transform = 'scale(0)';
     projectEl6.style.opacity = '0';
@@ -76,18 +76,18 @@ filtersEl.addEventListener('click', e => {
     projectEl6.style.transform = 'translate(-325px, -501px)';
     projectEl6.style.opacity = '1';
   } else if (filterText === 'Full stack') {
-    projectEl3.style.opacity = '0';
-    projectEl3.style.transform = 'scale(0)';
-    projectEl4.style.opacity = '0';
-    projectEl4.style.transform = 'scale(0)';
-    projectEl5.style.opacity = '0';
-    projectEl5.style.transform = 'scale(0)';
-    projectEl6.style.opacity = '0';
-    projectEl6.style.transform = 'scale(0)';
+    projectEl3.style.opacity = '1';
+    projectEl3.style.transform = 'scale(1)';
+    projectEl4.style.opacity = '1';
+    projectEl4.style.transform = 'scale(1)';
+    projectEl5.style.opacity = '1';
+    projectEl5.style.transform = 'scale(1)';
+    projectEl6.style.opacity = '1';
+    projectEl6.style.transform = 'scale(1)';
 
     projectEl1.style.opacity = '1';
     projectEl1.style.transform = 'scale(1)';
-    projectEl2.style.opacity = '1';
-    projectEl2.style.transform = 'scale(1)';
+    projectEl2.style.opacity = '0';
+    projectEl2.style.transform = 'scale(0)';
   }
 });
